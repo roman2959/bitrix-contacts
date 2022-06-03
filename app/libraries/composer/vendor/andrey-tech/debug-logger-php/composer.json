@@ -1,0 +1,24 @@
+{
+    "name": "andrey-tech/debug-logger-php",
+    "description": "Простой логгер на PHP7+, сохраняющий отладочную информацию в файл вместе с данными об объеме используемой оперативной памяти и прошедшем времени",
+    "keywords": [ "logger", "debug", "debugging-tool", "memory" ],
+    "homepage": "https://github.com/andrey-tech/debug-logger-php",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andrey-tech",
+            "homepage": "https://github.com/andrey-tech/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\DebugLogger\\": "src/App/DebugLogger"
+        }
+    }
+}

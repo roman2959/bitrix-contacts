@@ -1,0 +1,174 @@
+{
+    "packages": [
+        {
+            "name": "andrey-tech/bitrix24-api-php",
+            "version": "1.8.0",
+            "version_normalized": "1.8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrey-tech/bitrix24-api-php.git",
+                "reference": "0a8ecee7f9f0ab7f79c5109006511f17a6f562bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrey-tech/bitrix24-api-php/zipball/0a8ecee7f9f0ab7f79c5109006511f17a6f562bc",
+                "reference": "0a8ecee7f9f0ab7f79c5109006511f17a6f562bc",
+                "shasum": ""
+            },
+            "require": {
+                "andrey-tech/debug-logger-php": "^2.0",
+                "andrey-tech/http-client-php": "^3.0",
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "time": "2022-05-22T12:32:47+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "App\\Bitrix24\\": "src/App/Bitrix24"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "andrey-tech",
+                    "homepage": "https://github.com/andrey-tech/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Обертка на PHP7+ для работы с API Битрикс24 с использованием механизма входящих вебхуков, троттлингом запросов и логированием в файл",
+            "homepage": "https://github.com/andrey-tech/bitrix24-api-php",
+            "keywords": [
+                "Bitrix24",
+                "api",
+                "api-wrapper",
+                "bitrix",
+                "logging",
+                "throttling",
+                "webhook"
+            ],
+            "support": {
+                "issues": "https://github.com/andrey-tech/bitrix24-api-php/issues",
+                "source": "https://github.com/andrey-tech/bitrix24-api-php/tree/1.8.0"
+            },
+            "install-path": "../andrey-tech/bitrix24-api-php"
+        },
+        {
+            "name": "andrey-tech/debug-logger-php",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrey-tech/debug-logger-php.git",
+                "reference": "c63608331f616b84b06a9a0091e79c5f875e88f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrey-tech/debug-logger-php/zipball/c63608331f616b84b06a9a0091e79c5f875e88f9",
+                "reference": "c63608331f616b84b06a9a0091e79c5f875e88f9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "time": "2021-02-07T08:27:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "App\\DebugLogger\\": "src/App/DebugLogger"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "andrey-tech",
+                    "homepage": "https://github.com/andrey-tech/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Простой логгер на PHP7+, сохраняющий отладочную информацию в файл вместе с данными об объеме используемой оперативной памяти и прошедшем времени",
+            "homepage": "https://github.com/andrey-tech/debug-logger-php",
+            "keywords": [
+                "debug",
+                "debugging-tool",
+                "logger",
+                "memory"
+            ],
+            "support": {
+                "issues": "https://github.com/andrey-tech/debug-logger-php/issues",
+                "source": "https://github.com/andrey-tech/debug-logger-php/tree/2.0.0"
+            },
+            "install-path": "../andrey-tech/debug-logger-php"
+        },
+        {
+            "name": "andrey-tech/http-client-php",
+            "version": "3.0.4",
+            "version_normalized": "3.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrey-tech/http-client-php.git",
+                "reference": "c5a513c1240eeb291a0d0244ebce785d6007c491"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrey-tech/http-client-php/zipball/c5a513c1240eeb291a0d0244ebce785d6007c491",
+                "reference": "c5a513c1240eeb291a0d0244ebce785d6007c491",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "time": "2022-05-29T05:02:46+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "App\\HTTP\\": "src/App/HTTP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "andrey-tech",
+                    "homepage": "https://github.com/andrey-tech/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Простой НТТР(S) клиент на PHP7+ с троттлингом запросов и поддержкой маркера BOM в теле сообщения формата JSON",
+            "homepage": "https://github.com/andrey-tech/http-client-php",
+            "keywords": [
+                "bom",
+                "client",
+                "debug",
+                "http",
+                "http-client",
+                "http-request",
+                "https",
+                "https-client",
+                "https-sertificate",
+                "throttling"
+            ],
+            "support": {
+                "issues": "https://github.com/andrey-tech/http-client-php/issues",
+                "source": "https://github.com/andrey-tech/http-client-php/tree/3.0.4"
+            },
+            "install-path": "../andrey-tech/http-client-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
